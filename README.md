@@ -31,10 +31,6 @@ I'm building this project from scratch as part of my journey to become a full-st
 
 ---
 
-## 🚀 Getting Started (Run Locally)
-
-Follow these steps to run the project on your local machine.
-
 ### 🔗 Prerequisites
 
 - Python 3.10+
@@ -43,10 +39,28 @@ Follow these steps to run the project on your local machine.
 - Git
 - (Recommended) `virtualenv`
 
----
 
-### 📥 1. Clone the Repository
+📌 Upcoming Features
+Here’s what I plan to add next:
 
-```bash
-git clone https://github.com/swetarawat04/devconnect.git
-cd devconnect
+User authentication (signup/login)
+
+Developer profiles with skill tags
+
+Matching system for projects and developers
+
+RESTful APIs using Django REST Framework
+
+UI improvements (Tailwind or React)
+
+Deployment (e.g., Render, Railway, or Heroku)
+
+
+💬 Final Words
+This project is built with ❤️ and curiosity — not perfection.
+It’s a part of my learning journey, and I’m proud of every step.
+
+If you're a recruiter, developer, or mentor viewing this, thank you! I’d love feedback, suggestions, or even opportunities to grow in a professional setting.
+
+"I’m not a pro yet — but I’m working hard every day to become one."
+
