@@ -1,5 +1,24 @@
 {% extends 'main.html' %}
 
 {% block content %}
-<h1>Create Project Form</h1>
+<h1>Welcome User in Project Page </h1>
+<table border ="4">
+    <tr>
+        <th>Project Name</th>
+        <th>DemoLink</th>
+        <th>SourceLink</th>
+        <th>Status</th>
+    </tr>
+    {% for prj in prjList %}
+        <tr>
+            <td>{{prj.title}}</td>
+            <td>{{prj.deom_link}}</td>
+            <td>{{prj.source_link}}</td>
+            <td>
+                <a href="{% url 'singleProject' prj.id %}">View</a>
+               
+            </td>
+        </tr>
+        {% endfor %}
+</table>
 {% endblock content %}

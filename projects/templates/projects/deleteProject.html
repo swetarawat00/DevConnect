@@ -1,0 +1,23 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<h1>Deleteing project with Title {{prjObj.title}} Project Page </h1>
+<hr>
+<p>
+    {{prjObj.description}}
+</p>
+Vote Count:- {{prjObj.vote_total}}<br>
+Vote Ratio:- {{prjObj.vote_ratio}}<br>
+<hr>
+{% for skill in tag %}
+    <span>{{skill}}</span>
+{% endfor %}
+
+<h2>Are You Sure To Delete Press Confirm or Cancel</h2>
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" value="confirm">/
+    <button><a href="{% url 'project' %}">Cancel</a></button>
+</form>
+{% endblock content %}

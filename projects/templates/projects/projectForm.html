@@ -1,0 +1,12 @@
+{% extends 'main.html'%}
+
+{%block content%}
+<h1>Create Project Form</h1>
+<hr>
+<form actiom="" method="POST">
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" value = "Submit">
+</form>
+
+{% endblock content %}

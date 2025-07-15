@@ -1,9 +1,16 @@
 {% extends 'main.html' %}
 
 {% block content %}
-<h1>Welcome User in{{prjObj.prjName}}>Project Page</h1>
+<h1>Welcone User in {{prjObj.title}} Project Page </h1>
 <hr>
 <p>
-    {{prjObj.Description}}
+    {{prjObj.description}}
 </p>
+<hr>
+Vote Count :- {{prjObj.vote_total}}<br>
+Vote Ratio :- {{prjObj.vote_ratio}}<br>
+<hr>
+{% for skill in tag %}
+    <span>{{skill}}</span>
+{% endfor %}
 {% endblock content %}
