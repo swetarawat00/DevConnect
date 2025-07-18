@@ -9,6 +9,7 @@ I'm building this project from scratch as part of my journey to become a full-st
 ## ✨ Project Highlights
 
 - ✅ Django project fully set up and running
+- ✅ DjangoRestFramework used for API requests
 - ✅ PostgreSQL database connected
 - ✅ Models and admin interface (superuser) created
 - ✅ Initial views and HTML templates working
@@ -21,9 +22,9 @@ I'm building this project from scratch as part of my journey to become a full-st
 
 ## 🛠 Tech Stack
 
-| Layer        | Tools Used                  |
+| Layer        | Tools Used                   |
 |--------------|------------------------------|
-| **Backend**  | Django (Python)              |
+| **Backend**  | Django (Python) , DRF        |
 | **Database** | PostgreSQL                   |
 | **Frontend** | HTML, CSS (basic for now)    |
 | **Tools**    | Git, GitHub, Virtualenv      |
